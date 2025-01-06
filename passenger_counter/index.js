@@ -24,6 +24,7 @@ function save()
 {
     saveEl.innerHTML += count + espace;
     increment();
+    innitialize();
 
 
     console.log(count);
