@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background: url("fond.jpg") no-repeat; /* je mais une image en fond qui ne se repetera pas*/
+    background-size: cover; /* je fais en sorte que le fond sur toute la page*/
+    font-weight: bold; /* je met le texte en gras*/
+    text-align: center; /* je centre le texte horizontalement*/
+}
+
+button{
+    border: none; /* j'en,leve les bordures du bouton*/
+    padding: 10px 0; /* je lui met un padding pour le haut et le bas puuis les cotes*/
+    color: white; /* je met au texte la couleur blanche*/
+    font-weight: bold; /*je met lke texte en gras*/
+    width: 200px; /* je met la hauteur */
+    margin-bottom: 5px; /* je met une marge pour le bas */
+    border-radius: 5%; /* j'arrondi les bords*/
+}
+
+#increment-btn{
+    background: darkred; /* je met un fond de couleur*/
+}
+
+#save-btn{
+    background: darkgreen; /* je met un fond de couleur*/
+}
+
+#initialize-btn{
+    background: rgb(100, 62, 0); /* je met un fond de couleur*/
+}
+
+
+
